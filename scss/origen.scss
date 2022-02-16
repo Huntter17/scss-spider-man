@@ -1,0 +1,42 @@
+@import "variables";
+@import "mediaQueries";
+
+header {
+    background-image: $navOne;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    &:hover {
+        border: $border solid 2px;
+    border-radius: 15px;
+    background-color: $redOne;
+    padding: 3px;
+    }
+}
+
+h2 {
+    background-color: $redOne;
+    border: $border;
+}
+
+footer {
+    background-color: $footer;
+}
+
+.spidey_article1, .spidey_article2, .spidey_article3 {
+    border: $border;
+    background-color: $redOne;
+}
+
+.main-films article {
+    border: $border;
+    background-color: $redOne;
+}
+
+.main-contact form {
+    border: $border;
+    background-color: $redOne;
+}

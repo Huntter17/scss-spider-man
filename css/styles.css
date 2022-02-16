@@ -1,0 +1,249 @@
+body {
+    max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+    background-image: url('https://fc05.deviantart.net/fs71/i/2013/073/5/a/wallpaper___spider_man_movie_trilogy_pt1_back_logo_by_kalangozilla-d5y2anf.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 10vh;
+    /* background-image: linear-gradient(rgba(252, 9, 9, 0.472), rgba(29, 49, 114, 0.651)); */
+}
+
+.logo {
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu-container {
+    margin: 0;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    padding: 0;
+}
+
+/* header nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+header nav ul li:hover {
+    border: rgba(255, 0, 0, 0.87) solid 2px;
+    border-radius: 15px;
+    background-color: rgba(100, 0, 0, 0.5);
+    padding: 3px;
+} */
+
+a{
+    color: whitesmoke;
+    text-transform: none;
+    text-decoration-line: none;
+}
+
+main {
+    height: 80vh;
+    padding-top: 5%;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: rgba(235, 232, 232, 0.876);
+    text-align: center;
+}
+
+h2 {
+    margin: 30px auto;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    text-transform: uppercase;
+    /* border: rgba(255, 0, 0, 0.87) solid 2px; */
+    border-radius: 15px;
+    /* background-color: rgba(100, 0, 0, 0.5); */
+}
+
+h3 {
+    font-size: 25px;
+}
+
+footer {
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: rgb(4 6 32 / 26%); */
+}
+
+.web-corner {
+    height: 500px;
+    margin: 0%;
+    opacity: 0.7;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer p {
+    width: 100%;
+    margin: 0%;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Spidey html */
+.main-spidey {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spidey_article1, .spidey_article2, .spidey_article3 {
+    width: 600px;
+    height: 550px;    
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: rgba(255, 0, 0, 0.87) solid 2px; */
+    border-radius: 15px;
+    /* background-color: rgb(100 0 0 / 62%); */
+}
+
+iframe {
+    border-radius: 15px;
+    height: 315px;
+}
+
+.goTop {
+    font-weight: bold;
+}
+
+
+/* films html */
+.main-films {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-films article {
+    max-width: 480px;
+    height: 480px;    
+    /* margin: 1px; */
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: rgba(255, 0, 0, 0.87) solid 2px; */
+    border-radius: 15px;
+    /* background-color: rgb(100 0 0 / 62%); */
+}
+
+/* .maguire-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+ */
+/* .garfield-grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
+} */
+
+/* .holland-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.miscellaneous-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
+
+/* gallery html */
+
+.main-gallery {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .grid-gallery {
+    height: auto;    
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    border: rgba(255, 0, 0, 0.87) solid 2px;
+    border-radius: 15px;
+    background-color: rgb(100 0 0 / 62%);
+} */
+.grid-gallery img {
+    max-width: 350px;
+}
+
+/* contact html */
+
+.main-contact {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contact form {
+    width: 650px;
+    height: 650px;
+    margin: 30px auto;
+    padding: 25px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: rgba(255, 0, 0, 0.87) solid 2px; */
+    border-radius: 15px;
+    /* background-color: rgb(100 0 0 / 62%); */
+}
+.gender {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-danger {
+    margin: 15px auto;
+}
+
+/* media queries */
+
+/*smartphone 480px horizontal-  tablet vertical entre 480 a 768px */
+
+/* smartphone */
